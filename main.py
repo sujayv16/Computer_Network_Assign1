@@ -34,8 +34,8 @@ def main():
     peer_list = []  # List to store peer node instances.
     num_seeds = len(seed_list)  # Total number of seed nodes.
     
-    # Create 5 peer nodes with ports ranging from 8000 to 8004.
-    for port in range(8000, 8005):
+    # Create 5 peer nodes with ports ranging from 8000 to 8003.
+    for port in range(8000, 8003):
         # Create a new Peer instance with localhost as IP and the given port.
         p = Peer("127.0.0.1", port)
         # Start the peer (this begins listening for incoming connections and starts gossiping).
